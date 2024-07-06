@@ -1,17 +1,17 @@
 # 📘 데이터 암호화 표준 (DES)
 
 ## 📑 목차
-1. [DES 개요](#des-개요)
-2. [DES 구조](#des-구조)
-   - [초기 치환 (Initial Permutation) 및 최종 치환 (Final Permutation)](#초기-치환-initial-permutation-및-최종-치환-final-permutation)
-   - [라운드 (Rounds)](#라운드-rounds)
-   - [DES 함수 (DES Function)](#des-함수-des-function)
-     - [확장 P-box (Expansion P-box)](#확장-p-box-expansion-p-box)
-     - [S-박스 (S-boxes)](#s-박스-s-boxes)
-     - [스트레이트 P-box (Straight P-box)](#스트레이트-p-box-straight-p-box)
-3. [암호화 및 복호화](#암호화-및-복호화)
-4. [키 생성](#키-생성)
-5. [참고 문헌](#참고-문헌)
+1. DES 개요
+2. DES 구조
+   - 초기 치환 (Initial Permutation) 및 최종 치환 (Final Permutation)
+   - 라운드 (Rounds)
+   - DES 함수 (DES Function)
+     - 확장 P-box (Expansion P-box)
+     - S-박스 (S-boxes)
+     - 스트레이트 P-box (Straight P-box)
+3. 암호화 및 복호화
+4. 키 생성
+5. 참고 문헌
 
 ## DES 개요
 데이터 암호화 표준 (DES, Data Encryption Standard)은 1973년 미국 국가 표준국(NBS, 현재 NIST)이 국가 대칭키 암호 시스템을 위해 제안한 알고리즘으로, IBM의 Lucifer 프로젝트를 개량한 것입니다. DES는 1975년 FIPS 초안으로 발표되었습니다. DES는 블록 암호로, 64비트 평문과 56비트 키를 사용하여 64비트 암호문을 생성합니다.
@@ -151,3 +151,5 @@ DES 암호화 키는 일반적으로 56비트 대신 패리티 비트가 포함�
    44 49 39 56 34 53 
    46 42 50 36 29 32 
    ```
+## 📚 참고 문헌
+- [FIPS PUB 46-3](https://csrc.nist.gov/csrc/media/publications/fips/46/3/archive/1999-10-25/documents/fips46-3.pdf)
