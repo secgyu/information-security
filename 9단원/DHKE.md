@@ -1,7 +1,5 @@
 # 📘 Diffie-Hellman Key Exchange (DHKE)
 
-이 레포지토리는 Diffie-Hellman Key Exchange (DHKE) 알고리즘과 관련된 내용을 설명하고 구현한 것입니다. 각 주제에 대한 간략한 설명과 관련 알고리즘을 소개합니다.
-
 ### 🔒 DHKE 개요
 Diffie-Hellman Key Exchange는 1976년에 소개된 최초의 공개키 알고리즘으로, 두 사용자 간에 안전하지 않은 채널을 통해 안전하게 대칭키를 공유할 수 있는 방법을 제공합니다. 이 알고리즘은 이산 로그 문제의 어려움에 기반을 두고 있습니다.
 
